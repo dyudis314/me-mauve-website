@@ -9,10 +9,6 @@ $('.js--scroll-to-contact').click(function () {
   $('html, body').animate({scrollTop: $('.js--section-mailing-list').offset().top}, 1000);
   });
 
-/* Mobile Navigation */
-
-
-   
 });
 
 
