@@ -13,7 +13,6 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  list-style: none;
 }
 
 html {
@@ -65,34 +64,6 @@ text-decoration: none;
 }
 
 
-/* ------------------------------------------- */
-/* BUTTONS */
-/* ------------------------------------------- */
-
-.btn:link,
-.btn:visited {
-  display: inline-block;
-  padding: 15px 30px;
-  font-weight: 300;
-  text-decoration: none;
-  border-radius: 200px;
-  color: #fff;
-  transition: background-color 1s, border 0.2s, color 0.2s;
-}
-
-.btn-full:link,
-.btn-full:visited {
-background-color: #a36790e7;
-border: 1px solid #cec6cb;
-color: #fff;
-margin: 30px 15px 0px 10px;
-}
-
-.btn:hover,
-.btn:active {
-  background-color: #704f65;
-}
-
 
 /* ------------------------------------------- */
 /* HEADER */
@@ -107,7 +78,7 @@ header {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  height: 92vh;
 }
 
 .hero-text-box {
@@ -118,73 +89,123 @@ header {
   transform: translate(18%, -80%);
 }
 
-.main-nav li {
- font-size: 22px;
+/* ------------------------------------------- */
+/* NAV */
+/* ------------------------------------------- */
+
+nav {
+  background-color: #b48da77c;
+  justify-content: space-around;
+  min-height: 7vh;
 }
 
-.top-nav {
-float: right;
-margin-top: -520px;
-padding: 10px;
+.nav-links {
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 7.5px;
 }
 
-.top-nav li {
-position: relative;
-display: inline-block;
-margin-left: 45px;
-padding: 15px;
+.nav-links li {
+list-style: none;
 }
 
-.top-nav li a:link,
-.top-nav li a:visited {
-padding: 6px 0;
-color: #fff;
-text-decoration: none;
-text-transform: lowercase;
-font-size: 120%;
-border-bottom: 2px solid transparent;
-transition: border-bottom 0.5s;
-}
-
-.top-nav li a:hover,
-.top-nav li a:active {
-border-bottom: 2px solid #ddc9dd;
-}
-
-/* Mobile navi */
-.mobile-nav-icon {
-float: left;
-margin-top: 30px;
-cursor: pointer;
-font-size: 200%;
-color: #fff;
-display: none;
-}
-
-
-/* Sticky navi */
-
-.sticky {
-  right: 0;
-  position: fixed;
-  width: 30%;
+.nav-links a {
   color: #fff;
-  background-color: #c69bc9da;
-  border-radius: 100px;
-  box-shadow: 1.5px 1.5px rgba(0, 0, 0, 0.63);
-  margin-right: 7px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+
+/* BURGER */
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.4s ease;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 1024px) {
+  .nav-links {
+    width: 70%;
+  }
+
+  .mailing-list-text ion-icon {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .hero-text-box {
+    display: none;
+  }
+
+.nav-links {
+    position: absolute;
+    right: 0px;
+    height: 85vh;
+    top: 6vh;
+    background-color: #b48da77c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    transform: translateX(100%);
+    transition: transform 0.4s ease-in;
+  }
+
+.burger {
+  display: block;
+  float: right;
+  padding: 5px;
   cursor: pointer;
 }
-
-.sticky .top-nav li a:link,
-.sticky .top-nav li a:visited {
-  padding: 6px 0;
-  color: #555;
+ 
+.nav-active {
+  transform: translateX(0%);
 }
 
 
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0px);
+      }
+    }
+
+    .toggle .line1 {
+      transform: rotate(-45deg) translate(-5px, 6px);
+    }
+    .toggle .line2 {
+      opacity: 0;
+    }
+    .toggle .line3 {
+      transform: rotate(45deg) translate(-5px, -6px);
+    }
+    
+  }
+
 /* ------------------------------------------- */
-/* PROMO */
+/* PROMO SECTION */
 /* ------------------------------------------- */
 
 .section-promo {
@@ -192,7 +213,7 @@ display: none;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  height: 94vh;
   padding: 50px;
 }
 
@@ -283,8 +304,8 @@ only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-device-pixel-ratio: 1.5){
 
   html,
-  body{
+  body {
     width:100%;
     overflow-x:hidden;
+    }
   }
-}

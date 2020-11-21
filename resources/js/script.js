@@ -1,15 +1,26 @@
-$(document).ready(function() {
+const navSlide = () => {
+const burger = document.querySelector('.burger');
+const nav = document.querySelector('.nav-links');
+const navLinks = document.querySelectorAll('.nav links li');
 
-/* Scroll on buttons */
-$('.js--scroll-to-song').click(function () {
-$('html, body').animate({scrollTop: $('.js--section-promo').offset().top}, 1000);
-});
+  // When we click on the burger, we want the nav to toggle to nav-active.
+burger.addEventListener('click', () => {
+  nav.classList.toggle('nav-active');
 
-$('.js--scroll-to-contact').click(function () {
-  $('html, body').animate({scrollTop: $('.js--section-mailing-list').offset().top}, 1000);
-  });
+  // Animate Links
+  navLinks.forEach((link, index) => {
+    if (link.style.animation) {
+      link.style.animation = '';
+    } else {
+       link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
+        }
+      });
 
-});
+    // Burger Animation
+    burger.classList.toggle('toggle');
 
+    });
+  }
+    
 
-
+navSlide();
