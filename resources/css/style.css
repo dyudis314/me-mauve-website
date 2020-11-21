@@ -76,7 +76,8 @@ text-decoration: none;
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(107, 87, 104, 0.603)), url(img/me&mauve.JPG);
   background-size: cover;
-  background-position: center;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   height: 92vh;
 }
@@ -202,6 +203,16 @@ list-style: none;
       transform: rotate(45deg) translate(-5px, -6px);
     }
     
+  }
+
+  @media screen and (max-width: 480px) {
+    header {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(107, 87, 104, 0.603)), url(img/me&mauve.JPG);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      height: 92vh;
+    }
   }
 
 /* ------------------------------------------- */
