@@ -78,7 +78,7 @@ header {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-attachment: initial;
+  background-attachment: fixed;
   height: 92vh;
 }
 
@@ -112,10 +112,16 @@ nav {
 list-style: none;
 }
 
-.nav-links a {
+.nav-links a
+ {
   color: #fff;
   text-decoration: none;
   font-size: 20px;
+  transition: color 250ms ease-in-out;
+}
+
+.nav-links a:hover {
+  color:  #000000; 
 }
 
 
@@ -211,14 +217,18 @@ list-style: none;
       transition: background 500ms ease-in;
     }
 
+.hero-text-box {
+      margin-left: 70px;
+    }
+
     .section-promo {
       background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(12, 12, 12, 0.685)), url(/resources/img/thewheel.JPG);
       height: auto;
       width: 100%;
-      max-width: 560px;
+      max-width: 720px;
     }
-    
 
+    
     .hero-text-box {
       display: flex;
       left: 0px;
@@ -238,29 +248,23 @@ list-style: none;
   padding: 50px;
 }
 
-
-.stream-me {
-  margin-top: 250px;
-  text-decoration: none;
-  color: rgb(255, 249, 249);
+.section-promo .row {
+  text-align: center;
 }
 
-h2 a:link,
-h2 a:visited { 
-  color:#ffffff;
-  font-weight: 400;
-  transition: border-bottom .5s, border-top .5s, border-left .5s, border-right .5s;
- }
 
- h2 a:hover,
- h2 a:active {
-  padding: 10px;
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
-  border-bottom: 4px solid #000;
-  border-right: 4px solid #000;
-  border-radius: 50px;
- }
+.new-song {
+  color: rgb(0, 0, 0);
+  transition: color 250ms ease-in-out;
+  font-size: 50px;
+  border-style: inset;
+}
+
+.new-song:hover {
+  color:  #ffffff; 
+}
+
+
 
  /* ------------------------------------------- */
 /* SECTION FORM */
@@ -271,7 +275,6 @@ h2 a:visited {
   padding: 10px 10px 0 10px;
   width: auto;
   background-color: #ece6ec;
-  text-align: center;
 }
 
 .email-box {
@@ -328,9 +331,5 @@ only screen and (min-device-pixel-ratio: 1.5){
   body {
     width:100%;
     overflow-x:hidden;
-    overflow: scroll;
-  -webkit-overflow-scrolling: touch;
     }
   }
-
-  
