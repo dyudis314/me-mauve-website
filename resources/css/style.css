@@ -212,11 +212,16 @@ list-style: none;
     }
 
     .section-promo {
-      background: #55394b6e;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(12, 12, 12, 0.685)), url(/resources/img/thewheel.JPG);
+      background-size: cover;
+      width: 560px;
+      height: 180px;
     }
+    
 
     .hero-text-box {
-      display: flex; 
+      display: flex;
+      left: 0px;
     }
   }
 
