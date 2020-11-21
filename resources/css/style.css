@@ -205,13 +205,18 @@ list-style: none;
     
   }
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 560px) {
     header {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(107, 87, 104, 0.603)), url(img/me&mauve.JPG);
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      height: 92vh;
+      background:  #704f65;
+      transition: background 500ms ease-in;
+    }
+
+    .section-promo {
+      background: #55394b6e;
+    }
+
+    .hero-text-box {
+      display: flex; 
     }
   }
 
