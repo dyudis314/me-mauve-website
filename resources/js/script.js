@@ -1,26 +1,27 @@
+/* Nav Sidebar slide */
+
 const navSlide = () => {
 const burger = document.querySelector('.burger');
 const nav = document.querySelector('.nav-links');
 const navLinks = document.querySelectorAll('.nav links li');
 
-  // When we click on the burger, we want the nav to toggle to nav-active.
+  // When burger is clicked, nav-active class is toggled on/off.
 burger.addEventListener('click', () => {
   nav.classList.toggle('nav-active');
-
-  // Animate Links
-  navLinks.forEach((link, index) => {
-    if (link.style.animation) {
-      link.style.animation = '';
-    } else {
-       link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
-        }
-      });
 
     // Burger Animation
     burger.classList.toggle('toggle');
 
     });
   }
-    
-
 navSlide();
+
+
+/* Reload on hero text box click */
+ function reloadOnClick() {
+  const hero = document.querySelector('.hero-text-box');
+  hero.addEventListener('click', () => {
+    location.reload();
+  })
+ }
+ reloadOnClick();
