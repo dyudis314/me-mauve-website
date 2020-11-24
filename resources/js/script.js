@@ -1,9 +1,9 @@
-/* Nav Sidebar slide */
+/* Nav Sidebar Slide */
 
 const navSlide = () => {
-const burger = document.querySelector('.burger');
-const nav = document.querySelector('.nav-links');
-const navLinks = document.querySelectorAll('.nav links li');
+  const burger = document.querySelector('.burger');
+  const nav = document.querySelector('.nav-links');
+  const navLinks = document.querySelectorAll('.nav links li');
 
   // When burger is clicked, nav-active class is toggled on/off.
 burger.addEventListener('click', () => {
@@ -11,29 +11,26 @@ burger.addEventListener('click', () => {
 
     // Burger Animation
     burger.classList.toggle('toggle');
-
     });
   }
 navSlide();
 
-
 /* When user scrolls down, hide navbar. When user scrolls up, show navbar. */
-(function(){
+  (function(){
+    let doc = document.documentElement;
+    let w   = window;
 
-  let doc = document.documentElement;
-  let w   = window;
-
-  let curScroll;
-  let prevScroll = w.scrollY || doc.scrollTop;
-  let curDirection = 0;
-  let prevDirection = 0;
+    let curScroll;
+    let prevScroll = w.scrollY || doc.scrollTop;
+    let curDirection = 0;
+    let prevDirection = 0;
 
 
-  let header = document.querySelector('nav');
-  let toggled;
-  let threshold = 200;
+    let header = document.querySelector('nav');
+    let toggled;
+    let threshold = 200;
 
-  const checkScroll = function() {
+    const checkScroll = function() {
       curScroll = w.scrollY || doc.scrollTop;
       if(curScroll > prevScroll) {
           // scrolled down
@@ -43,11 +40,9 @@ navSlide();
           //scrolled up
           curDirection = 1;
       }
-
       if(curDirection !== prevDirection) {
           toggled = toggleHeader();
       }
-
       prevScroll = curScroll;
       if(toggled) {
           prevDirection = curDirection;
@@ -67,11 +62,8 @@ navSlide();
       }
       return toggled;
   };
-
   window.addEventListener('scroll', checkScroll);
-
 })();
-
 
 /* Reload on hero text box click */
  function reloadOnClick() {
