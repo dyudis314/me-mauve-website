@@ -102,6 +102,10 @@ nav {
   background-color: #b48da77c;
   justify-content: space-around;
   min-height: 7vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
 }
 
 .nav-links {
@@ -125,6 +129,10 @@ list-style: none;
 
 .nav-links a:hover {
   color:  #000000; 
+}
+
+.nav.hide {
+  top: -56px;
 }
 
 
@@ -269,7 +277,6 @@ form {
   color: white;
   text-align: center;
   background: linear-gradient(rgba(116, 84, 111, 0.637), #807e7e);
-
   }
 
 .mailing-list-text,
@@ -314,6 +321,13 @@ form {
   margin: auto 0;
   }
 }
+
+@media screen and (max-width: 1024px) {
+
+  .section-promo {
+  margin-bottom: -80px;
+  }
+} 
 
 /* ------------------------------------------- */
 /* FOOTER */
