@@ -210,7 +210,7 @@ body { overflow-x: hidden; }
       background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(12, 12, 12, 0.685)), url(/resources/img/thewheel.JPG);
       vertical-align: middle;
       background-size: 100%;
-      background-position: 50% 50%;
+      background-position: center;
       background-repeat: no-repeat; 
     }
 
@@ -335,7 +335,7 @@ form {
 @media screen and (max-width: 1024px) {
 
   .section-promo {
-  margin-bottom: -80px;
+  margin-bottom: -125px;
   }
 } 
 
