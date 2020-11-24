@@ -300,10 +300,13 @@ form {
   background-color: rgb(36, 36, 36);
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 480px) {
 
 
-.mailing-list-text,
+.mailing-list-text {
+  display: none;
+}
+
 .email,
 .submit{
   display: block;
