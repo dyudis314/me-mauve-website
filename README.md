@@ -12,15 +12,10 @@ This project was created to serve as a means to help expose my music. Every time
 <img width="609" alt="Screen Shot 2020-11-24 at 12 22 24 PM" src="https://user-images.githubusercontent.com/66389199/100147523-5730a800-2e50-11eb-9549-9ef32840fa64.png">
 
 # Tech/framework used
-Built with
-  -HTML5
-  -CSS3 Styling & Grid
-  -JavaScript
+Built with, HTML5, CSS3 Styling & Grid, JavaScript
   
 # Features
--Fully responsive
--Beautiful nav bar transitions
--Unique, 'midnight' color scheme
+Fully responsive, beautiful nav bar transitions, unique 'midnight' color scheme
 
 # How to use?
 Hosted Link: https://meandmauve.netlify.app/
