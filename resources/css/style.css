@@ -269,10 +269,7 @@ form {
   color: white;
   text-align: center;
   background: linear-gradient(rgba(116, 84, 111, 0.637), #807e7e);
-  }
 
-.mailing-list-text {
-    font-weight: bold;
   }
 
 .mailing-list-text,
@@ -286,6 +283,7 @@ form {
   border: 1px solid #fff;
   width: 120%;
   transition: background-color 350ms ease-in-out;
+  font-weight: 300;
 }
 
 .email {
@@ -302,6 +300,16 @@ form {
   background-color: rgb(36, 36, 36);
 }
 
+@media screen and (max-width: 780px) {
+
+
+.mailing-list-text,
+.email,
+.submit{
+  display: block;
+  width: 90%;
+  }
+}
 
 /* ------------------------------------------- */
 /* FOOTER */
