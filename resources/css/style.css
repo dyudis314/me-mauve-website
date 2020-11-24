@@ -136,7 +136,7 @@ list-style: none;
 }
 
 
-/* BURGER */
+/* --- BURGER --- */
 
 .burger {
   display: none;
@@ -150,7 +150,7 @@ list-style: none;
   transition: all 0.4s ease;
 }
 
-/* Mobile */
+/* --- Mobile --- */
 
 @media screen and (max-width: 1024px) {
   .nav-links {
@@ -208,9 +208,15 @@ body { overflow-x: hidden; }
 
   .section-promo {
       background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(12, 12, 12, 0.685)), url(/resources/img/thewheel.JPG);
-      height: auto;
-      width: 560px;
-      max-width: 720px;
+      vertical-align: middle;
+      background-size: 100%;
+      background-position: 50% 50%;
+      background-repeat: no-repeat; 
+    }
+
+    .section-promo h1,
+    .section-promo a {
+    font-size: 115%;
     }
 
   .hero-text-box {
@@ -241,6 +247,10 @@ body { overflow-x: hidden; }
   background-position: center;
   height: 94vh;
   padding: 50px;
+}
+
+.section-promo a {
+  padding: 12px;
 }
 
 .row {
