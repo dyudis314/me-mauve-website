@@ -1,0 +1,172 @@
+/* #b48da77c; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:focus {
+  outline: 0;
+}
+html {
+  background-color: #fff;
+  color: #333;
+  font-family: Lato, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 260%;
+  word-spacing: 4px;
+}
+h2 {
+  font-size: 180%;
+  word-spacing: 2px;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+.artist-name {
+  position: fixed;
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(107, 87, 104, 0.603)), url(img/me&mauve.JPG);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 92vh;
+}
+.hero-text-box {
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(18%, -80%);
+  cursor: pointer;
+}
+nav {
+  background-color: #b48da77c;
+  justify-content: space-around;
+  min-height: 7vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+}
+.nav-links {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 7.5px;
+}
+.nav-links li {
+  list-style: none;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  transition: color 250ms ease-in-out;
+}
+.nav-links a:hover {
+  color: #000;
+}
+.nav.hide {
+  top: -56px;
+}
+.burger {
+  display: none;
+}
+.burger div {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 5px;
+  transition: all 0.4s ease;
+}
+.section-promo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.514), rgba(12, 12, 12, 0.774)), url(/resources/img/thewheel.JPG);
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+  padding: 50px;
+}
+.section-promo a {
+  padding: 12px;
+}
+.row {
+  margin-top: 10rem;
+  text-align: center;
+}
+.new-song {
+  color: #bbb;
+  transition: color 250ms ease-in-out;
+  font-size: 70px;
+  border-style: inset;
+}
+.new-song:hover {
+  color: #fff;
+}
+input,
+label,
+textarea {
+  display: block;
+}
+button {
+  width: 87.5%;
+}
+form {
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  background: linear-gradient(rgba(116, 84, 111, 0.637), #807e7e);
+}
+.email,
+.mailing-list-text,
+.submit {
+  margin-top: 0.6rem;
+  background-color: inherit;
+  font-size: 22.5px;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+  width: 120%;
+  transition: background-color 350ms ease-in-out;
+  font-weight: 300;
+}
+.email {
+  width: 120%;
+  border: none;
+  border: 1px solid #fff;
+}
+.email::placeholder {
+  color: #fff;
+}
+.submit:hover {
+  background-color: #242424;
+}
+.copyright-info {
+  text-align: center;
+  font-size: 60%;
+  background-color: #ece6ec;
+  overflow: hidden;
+}
