@@ -1,85 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
-      <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
-      <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
-      <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
-      <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
-        />
-  <title>Me & Mauve</title>
-      <link rel="apple-touch-icon" sizes="180x180" href="/vendors/icons/apple-touch-icon.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/vendors/icons/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/vendors/icons/favicon-16x16.png">
-      <link rel="manifest" href="/vendors/icons/site.webmanifest">
-      <link rel="mask-icon" href="/vendors/icons/safari-pinned-tab.svg" color="#5bbad5">
-      <link rel="shortcut icon" href="/vendors/icons/favicon.ico">
-      <meta name="msapplication-TileColor" content="#da532c">
-      <meta name="msapplication-config" content="/vendors/icons/browserconfig.xml">
-      <meta name="theme-color" content="#ffffff">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
+    <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+      />
+<title>Me & Mauve</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/vendors/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/vendors/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/vendors/icons/favicon-16x16.png">
+    <link rel="manifest" href="/vendors/icons/site.webmanifest">
+    <link rel="mask-icon" href="/vendors/icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/vendors/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/vendors/icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
- <container class="container">
+  <container class="container">
+    <section class="header">
+      <div class="hero-text-box">
+        <h3 class="artist-name">me<span class="typer" id="main" data-words="&mauve" data-delay="100" data-deleteDelay="1000"></span>
+          <span class="cursor" data-owner="main"></span>
+            <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+        </h3>
+        <img src="/resources/img/GrooveWithMe.png">
+      </div>
 
-  <section class="header">
-    <div class="hero-text-box">
-      <h2 class="artist-name">me<span class="typer" id="main" data-words="&mauve" data-delay="100" data-deleteDelay="1000"></span>
-        <span class="cursor" data-owner="main"></span>
-          <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-      </h2>
-      <img src="/resources/img/">
-</div>
-  <nav class="nav">
+  <div class="medium-promo-links">
+      <a href="http://smarturl.it/thewheel/" target="_blank" class="link1">music</a>
+      <a href="https://www.instagram.com/meandmauve/" target="_blank" class="link2">instagram</a>
+      <a href="https://twitter.com/me_mauve" target="_blank" class="link3">twitter</a>
+  </div>
+
+  <nav>
     <div class="burger">
       <div class="line1"></div>
       <div class="line2"></div>
       <div class="line3"></div>
     </div>
+   
     <ul class="nav-links">
       <li><a href="http://smarturl.it/thewheel/" target="_blank">listen</a></li>
       <li><a href="https://www.instagram.com/meandmauve/" target="_blank">instagram</a></li>
       <li><a href="https://twitter.com/me_mauve" target="_blank">twitter</a></li>
     </ul>
   </nav>
+    </section>
+
+
+<section class="promo-section">
+  <img src="/resources/img/thewheel.JPG">
+     <h4 class="promo-section-text">my new song<br>
+        <i><h2>the wheel</i></h2>is out now!</h4>
+          <a href="http://smarturl.it/thewheel/" target="_blank" class="promo-section-click">listen</a></li>
 </section>
 
-<section class="section-promo">
-    <div class="row">
-      <h2 class="stream-me">stream my new song</h2><br>
-        <a href="http://smarturl.it/thewheel/" class="new-song" target="_blank">the wheel</a>
+
+  <section class="form">
+    <div class="form-div">
+      <form action="https://formspree.io/f/moqplgop" method="post">
+        <h3>mailing list</h3>
+        <input type="email" name="email" class="email" placeholder="e-mail" required/>
+        <button type="submit" class="submit">submit</button>
     </div>
   </section>
 
-  <section class="form"> 
-    <form action="https://formspree.io/f/moqplgop" method="post">
-      <div class="col span-1-of-3">
-        <label type="text" class="mailing-list-text">mailing list </label>
-      </div>
-      <div class="col span-1-of-3">
-        <input type="email" name="email" class="email" placeholder="e-mail address" required/>
-      </div>
-        <div class="col span-1-of-3">
-        <button type="submit" class="submit">submit</button>
-      </div>
-</section>
-
-<section class="copyright-info">
-<footer>
-    <div>
-      <p>
-        Copyright &copy; 2020 by Lily Scott Projects.<br> All rights reserved.
+<section class="footer">
+  <footer>
+      <div class="copyright-info">
+        <p>
+          All Content Copyright <br> Dylan Yudis 2020.
       </p>
-    </div>
-</footer>
+  </div>
+  </footer>
 </section>
-</container>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="resources/js/script.js"></script>
-<script src="vendors/js/jquery.waypoints.min.js"></script>
-<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="resources/js/script.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</container>
   </body>
 </html>
