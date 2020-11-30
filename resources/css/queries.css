@@ -1,47 +1,41 @@
-
+ /* * {border:1px solid red;} */
 @media only screen and (max-width: 767px) { 
-.medium-promo-links {
-    display: none
-      }
-
+  .medium-promo-links { display: none }
   }
 
 @media only screen and (min-width: 768px) { 
-  .burger {
-    display: none;
-  }
+  .burger { display: none; }
 
-  nav {
-    display: none;
-  }
+  nav { display: none; }
 
   .hero-text-box img {
-    width: 75px;
-    height: 75px;
-  }
+      width: 75px;
+      height: 75px;
+    }
 
   .artist-name {
-    text-align: center;
-    font-size: 150%;
-  }
+      text-align: center;
+      font-size: 150%;
+    }
 
   .medium-promo-links a {
-      color: #fff;
-      transition: all .5s ease-in-out;
-      border-style: solid;
-      border-width: thin;
-      border-color:#fff;
-      text-decoration: none;
-      padding: 5px;
-      letter-spacing: 2px;
-      display: block;
-      margin-left: 20%;
-      margin-right: 20%;
-      margin-bottom: 2rem;
-      text-align: center;
-  }
-  .medium-promo-links a:hover {
-    background-color: #fff;
-    color:#6e375ca1;
+        color: #fff;
+        transition: all .5s ease-in-out;
+        border-style: solid;
+        border-width: thin;
+        border-color:#fff;
+        text-decoration: none;
+        padding: 5px;
+        letter-spacing: 2px;
+        display: block;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2rem;
+        text-align: center;
     }
+
+  .medium-promo-links a:hover {
+      background-color: #fff;
+      color:#6e375ca1;
+      }
 }
