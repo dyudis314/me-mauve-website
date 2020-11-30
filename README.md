@@ -17,7 +17,7 @@ Built with, HTML5, CSS3 Styling & Grid, JavaScript
 Fully responsive, beautiful nav bar transitions, unique 'midnight' color scheme
 
 # How to use?
-Hosted Link: https://meandmauve.netlify.app/
+Hosted Link: https://www.meandmauve.com/
 
 # Credits
 The site was and still is largely inspired by http://joehertz.fm/
