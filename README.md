@@ -6,10 +6,9 @@ A landing page for my independent music project. The page was developed using HT
 This project was created to serve as a means to help expose my music. Every time I release a new song or piece of content, I maintain the page tangentially. I'm constantly adding features to make the feel of the site more modern and user-experience-oriented. 
 
 # Screenshots
-<img width="1087" alt="Screen Shot 2020-11-24 at 12 21 35 PM" src="https://user-images.githubusercontent.com/66389199/100147498-50099a00-2e50-11eb-95aa-879e3e9bf8e6.png">
-<img width="1084" alt="Screen Shot 2020-11-24 at 12 21 46 PM" src="https://user-images.githubusercontent.com/66389199/100147506-51d35d80-2e50-11eb-8465-15f29d72d770.png">
-<img width="609" alt="Screen Shot 2020-11-24 at 12 22 13 PM" src="https://user-images.githubusercontent.com/66389199/100147518-56981180-2e50-11eb-9f4e-8e8b5733253f.png">
-<img width="609" alt="Screen Shot 2020-11-24 at 12 22 24 PM" src="https://user-images.githubusercontent.com/66389199/100147523-5730a800-2e50-11eb-9549-9ef32840fa64.png">
+<img width="1209" alt="Screen Shot 2020-11-30 at 11 21 02 AM" src="https://user-images.githubusercontent.com/66389199/100654376-88045780-32fe-11eb-8254-679e5b5ddd41.png">
+<img width="1226" alt="Screen Shot 2020-11-30 at 11 19 17 AM" src="https://user-images.githubusercontent.com/66389199/100654379-89ce1b00-32fe-11eb-9876-71b2381f2e0d.png">
+<img width="478" alt="Screen Shot 2020-11-30 at 11 19 32 AM" src="https://user-images.githubusercontent.com/66389199/100654384-8aff4800-32fe-11eb-900f-d62316dd01d8.png">
 
 # Tech/framework used
 Built with, HTML5, CSS3 Styling & Grid, JavaScript
