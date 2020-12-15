@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
     <link rel="stylesheet" type="text/css" href="/resources/css/style.css">
@@ -11,8 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
       />
-<title>me&mauve</title>
-
+<title>Me & Mauve</title>
     <link rel="apple-touch-icon" sizes="180x180" href="/vendors/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/vendors/icons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/vendors/icons/favicon-16x16.png">
@@ -22,83 +19,72 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/vendors/icons/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-
 </head>
 
 <body>
-<header>
-  <div class="hero-text-box">
-    <h1 class="artist-name">me<span class="typer" id="main" data-words="&mauve" data-delay="100" data-deleteDelay="1000"></span>
-  <span class="cursor" data-owner="main"></span>
-  <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
-    </h1>
+  <container class="container">
+    <section class="header">
+      <div class="hero-text-box">
+        <h3 class="artist-name">me<span class="typer" id="main" data-words="&mauve" data-delay="100" data-deleteDelay="1000"></span>
+          <span class="cursor" data-owner="main"></span>
+            <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+        </h3>
+        <img src="/resources/img/GrooveWithMe.png">
+      </div>
+
+  <div class="medium-promo-links">
+      <a href="http://smarturl.it/thewheel/" target="_blank" class="link1">music</a>
+      <a href="https://www.instagram.com/meandmauve/" target="_blank" class="link2">instagram</a>
+      <a href="https://twitter.com/me_mauve" target="_blank" class="link3">twitter</a>
   </div>
 
   <nav>
-    <div class="row">
-      <ul class="main-nav js--main-nav">
-        <a class="mobile-nav-icon js--nav-icon"><ion-icon name="grid-outline"></ion-icon></a>
-    <li><a class="btn btn-full" href="https://www.instagram.com/meandmauve/?hl=ta" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
-    <li><a class="btn btn-full" href="https://twitter.com/meandmauve" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a> </li>
-    <li><a class="btn btn-full" href="https://open.spotify.com/artist/5e9F4w3zRnUHwBPyP1SXeN?si=R0A1h0LHQr26obla970Wyw" target="_blank"><ion-icon name="play-outline"></ion-icon></a></li>
-    <li><a class="btn btn-full" href="https://soundcloud.com/me_and_mauve" target="_blank"><ion-icon name="logo-soundcloud"></ion-icon></a></li>
-    <li><a class="btn btn-full" href="https://music.apple.com/us/artist/me-mauve/1511502903" target="_blank"><ion-icon name="logo-apple"></ion-icon></a></li>
-    <li><a class="btn btn-full" href="https://www.youtube.com/channel/UCx4Y0toibIh5rpnW3SsQFJw" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a></li>
-  </ul>
+    <div class="burger">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
     </div>
-
-  <div class="row">
-    <ul class="top-nav sticky">
-      <li><a class="js--scroll-to-song">listen</a></li>
-      <li><a class="js--scroll-to-contact">mailing list</a></li>
+   
+    <ul class="nav-links">
+      <li><a href="http://smarturl.it/thewheel/" target="_blank">listen</a></li>
+      <li><a href="https://www.instagram.com/meandmauve/" target="_blank">instagram</a></li>
+      <li><a href="https://twitter.com/me_mauve" target="_blank">twitter</a></li>
     </ul>
-  </div>
   </nav>
+    </section>
 
-</header>
 
-<section class="section-promo js--section-promo">
-    <div class="row">
-      <h1 class="stream-me">stream my new song</h1>
-        <h2 class="stream-me-click"><i><a href="http://smarturl.it/thewheel/" target="_blank">the wheel</i></a></h2>
-    </div>
-  </section>
-
-  <section class="section-form js--section-mailing-list">
-    <form method="post" action="https://gmail.us10.list-manage.com/subscribe/post?u=7ab8a2884295db36ca0bba478&amp;id=e9a822997f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="contact-form">
-    <div class="row">
-      <div class="col span-1-of-3">
-        <h2 class="mailing-list-text">mailing list <ion-icon name="mail-outline" class="email-icon"></ion-icon></h2>
-      </div>
-    <div class="col span-1-of-3">
-      <input type="email" name="email" id="email" placeholder="email address" class="email-box" required>
-    </div>
-    <div class="col span-1-of-3">
-      <input type="submit" value="submit" class="submit">
-      </div>
-    </div>
-  </form>
+<section class="promo-section">
+  <img src="/resources/img/thewheel.JPG">
+     <h4 class="promo-section-text">my new song<br>
+        <i><h2>the wheel</i></h2>is out now!</h4>
+          <a href="http://smarturl.it/thewheel/" target="_blank" class="promo-section-click">listen</a></li>
 </section>
 
 
-<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  <section class="form">
+    <div class="form-div">
+      <form action="https://formspree.io/f/moqplgop" method="post">
+        <h3>mailing list</h3>
+        <input type="email" name="email" class="email" placeholder="e-mail" required/>
+        <button type="submit" class="submit">submit</button>
+    </div>
+  </section>
 
-
-<footer>
-  <div class="row">
-    <div class="copyright-info">
-      <p>
-        Copyright &copy; 2020 by Lily Scott Projects. All rights reserved.
-    </p>
+<section class="footer">
+  <footer>
+      <div class="copyright-info">
+        <p>
+          All Content Copyright <br> Dylan Yudis 2020.
+      </p>
   </div>
-</div>
-</footer>
+  </footer>
+</section>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="resources/js/script.js"></script>
-<script src="vendors/js/jquery.waypoints.min.js"></script>
-
-
-</body>
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="resources/js/script.js"></script>
+  <script src="vendors/js/jquery.waypoints.min.js"></script>
+  <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</container>
+  </body>
 </html>
