@@ -123,7 +123,7 @@ transition: all 0.4s ease;
 }
    
 .nav-active {
-    transform: translateY(0%);
+    transform: translateY(-15%);
   }
   
 .toggle .line1 {
