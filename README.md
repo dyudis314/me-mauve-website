@@ -1,5 +1,5 @@
 # me-mauve-website
 
-A landing page for my independent music project. The page was developed using a modern Javascript ES6 workflow. Custom styling using CSS and added effects via JQuery.
+A landing page for my independent music project. The page was developed using HTML, CSS Grid and JavaScript.
 
-Hosted Link: https://meandmauve.netlify.app/
+[Hosted Link](https://www.meandmauve.com/)
