@@ -1,18 +1,13 @@
+/* Tablet and smaller */
 
 @media only screen and (max-width: 767px) { 
-    .medium-promo-links {
-    display: none
-      }
+    .medium-promo-links { display: none }
   }
 
 @media only screen and (min-width: 768px) { 
-  .burger {
-    display: none;
-  }
+  .burger { display: none; }
 
-  nav {
-    display: none;
-  }
+  nav { display: none; }
 
   .hero-text-box img {
     width: 75px;

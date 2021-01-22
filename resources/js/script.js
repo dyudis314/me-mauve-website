@@ -16,7 +16,6 @@ const navSlide = () => {
     }
   navSlide();
   
-  
   /* Reload on hero text box click */
    function reloadOnClick() {
     const hero = document.querySelector('.hero-text-box');
