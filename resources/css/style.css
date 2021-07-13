@@ -147,7 +147,7 @@ transition: all 0.4s ease;
 
 .promo-section-click {
   color: #000;
-  transition: all .5s ease-in-out;
+  transition: all .25s ease-in-out;
   border-style: solid;
   border-width: thin;
   border-color: black;
@@ -208,7 +208,7 @@ transition: all 0.4s ease;
 
 .submit {
   color: #000;
-  transition: all .5s ease-in-out;
+  transition: all .25s ease-in-out;
   border-style: solid;
   border-width: thin;
   border-color:#000;
