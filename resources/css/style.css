@@ -3,7 +3,7 @@
 /* Main Purple Color: 6e375ca1 */
 
 html {
-  background-color: #fff;
+  background-color: #000;
   color: rgb(51, 51, 51);
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 300;
@@ -35,7 +35,8 @@ body {
 
 .header {
    grid-area: ".header";
-   background-image: linear-gradient(#6e375ca1, rgb(32, 32, 32));
+   /*background-image: linear-gradient(#6e375ca1, rgb(32, 32, 32));*/
+   background-color: peachpuff;
 }
 
 /* Logo */
@@ -59,11 +60,11 @@ animation: rotation 8s infinite linear;
 
 .artist-name {
   text-align: center;
-  color: #fff;
+  color: #000;
   font-weight: 300;
 }
 
-.hero-text-box span { color: white; }
+.hero-text-box span { color: #000; }
 
 nav ul { display: none; }
 
@@ -80,11 +81,10 @@ nav ul { display: none; }
 .burger div {
 width: 25px;
 height: 3px;
-background-color: #fff;
+background-color: #000;
 margin: 5px;
 transition: all 0.4s ease;
 }
-
 
 .nav-links {
  position: absolute;
@@ -95,19 +95,20 @@ transition: all 0.4s ease;
  display: flex;
  flex-direction: column;
  align-items: center;
- background-color: #b48da77c;
+ background-color: peachpuff;
+ border: solid 1px black;
+ border-right: none;
  transform: translateY(-135%);
  transition: transform 0.4s ease-in;
  list-style: none;
  padding: 1rem;
- border-radius: 10px;
  justify-content: space-around;
     }
 
 .nav-links a {
-  color: #fff;
+  color: rgb(75, 75, 75);
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
   transition: color 250ms ease-in-out;
   margin-top: 7.5px;
     }
@@ -122,21 +123,22 @@ transition: all 0.4s ease;
   
 /* Promo Section  */
 .promo-section {      
-  background-image: linear-gradient(rgb(32, 32, 32), #6e375ca1);
+  /*background-image: linear-gradient(rgb(32, 32, 32), #6e375ca1);*/
+  background-color: peachpuff;
   grid-area: ".section-promo";
 }
 
 .promo-section img {
-  width: 60%;
+  width: 400px;
+  height: 400px;
   height: auto;
   display: block;
-  margin-top: 15%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .promo-section-text {
-  color: white;
+  color: #000;
   text-align: center;
   font-weight: 300;
   font-size: 90%;
@@ -144,11 +146,11 @@ transition: all 0.4s ease;
 }
 
 .promo-section-click {
-  color: #fff;
-  transition: all .5s ease-in-out;
+  color: #000;
+  transition: all .25s ease-in-out;
   border-style: solid;
   border-width: thin;
-  border-color:#fff;
+  border-color: black;
   text-decoration: none;
   padding: 5px;
   letter-spacing: 2px;
@@ -167,12 +169,13 @@ transition: all 0.4s ease;
 
 /* Form  */
 .form {
-  background-image: linear-gradient(#6e375ca1, rgb(32, 32, 32));
+  /*background-image: linear-gradient(#6e375ca1, rgb(32, 32, 32));*/
+  background-color: peachpuff;
   grid-area: ".form";
 }
 
 .form h3 {
-  color: white;
+  color: #000;
   text-align: center;
   font-weight: 300;
   font-size: 90%;
@@ -189,7 +192,7 @@ transition: all 0.4s ease;
   background-color: inherit;
   border-style: solid;
   border-width: thin;
-  border-color:#fff;
+  border-color:#000;
   padding: 5px;
   text-align: center;
   letter-spacing: 2px;
@@ -197,18 +200,18 @@ transition: all 0.4s ease;
 }
 
 ::placeholder {
-  color: white;
+  color: #000;
   font-weight: 300;
 }
 
 :focus { outline: 0; }
 
 .submit {
-  color: #fff;
-  transition: all .5s ease-in-out;
+  color: #000;
+  transition: all .25s ease-in-out;
   border-style: solid;
   border-width: thin;
-  border-color:#fff;
+  border-color:#000;
   text-decoration: none;
   padding: 5px;
   letter-spacing: 2px;
