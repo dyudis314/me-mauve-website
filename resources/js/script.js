@@ -1,17 +1,13 @@
-/* Nav Sidebar slide */
-
+/* Nav Sidebar Transition */
 const navSlide = () => {
   const burger = document.querySelector('.burger');
   const nav = document.querySelector('.nav-links');
   const navLinks = document.querySelectorAll('.nav links li');
   
-    // When burger is clicked, nav-active class is toggled on/off.
+    //when burger is clicked, nav-active class is toggled on/off.
   burger.addEventListener('click', () => {
     nav.classList.toggle('nav-active');
-  
-      // Burger Animation
       burger.classList.toggle('toggle');
-  
       });
     }
   navSlide();

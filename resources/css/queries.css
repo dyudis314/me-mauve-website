@@ -1,5 +1,4 @@
 /* Tablet and smaller */
-
 @media only screen and (max-width: 767px) { 
     .medium-promo-links { display: none }
   }
